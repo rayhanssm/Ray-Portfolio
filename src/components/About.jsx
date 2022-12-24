@@ -7,9 +7,9 @@ const About = () => {
   }
 
   return (
-    <div name='about' className='w-full h-screen bg-[#002651] text-[#FEFEFE]  bg-gradient-to-b from-[#FEFEFE10]'>
-      <div className='md:px-24 px-12 md:flex justify-around items-center h-screen'>
-        <div className='w-[50%]'>
+    <div name='about' className='w-full h-auto sm:px-6 bg-[#002651] text-[#FEFEFE] bg-gradient-to-b from-[#FEFEFE10]'>
+      <div className='md:px-24 px-6 md:flex justify-around items-center h-screen'>
+        <div className='pt-28 sm:w-[50%]'>
           <h1 className='text-3xl sm:text-5xl font-black mb-8 text-[#7EDDFC]'>About Me</h1>
           <p className='mb-8 sm:mb-4'>I am a computer science student, currently studying at Bina Nusantara University. I've been designing since vocational high school, and my parents used to ask me to design for them.</p>
           <p className='mb-8 sm:mb-4'>I'm interested in Front-End development and UI/UX because it's in line with my major and I want to learn more about it, for making a better interface that can be used for anyone.</p>

@@ -9,7 +9,7 @@ const Navbar = () => {
   
   const handleClick = () => setNav(!nav)
   const handleScroll = () => {
-    if(window.scrollY >= 100){
+    if(window.scrollY >= 10){
       setNavScroll(true);  
     } else {
       setNavScroll(false);
@@ -19,7 +19,7 @@ const Navbar = () => {
   window.addEventListener('scroll', handleScroll)
 
   return (
-    <div className={navScroll ? 'md:px-24 px-8 fixed w-full h-[80px] flex justify-between items-center text-[#FEFEFE] backdrop-blur-md duration-200' : 'md:px-24 px-12 fixed w-full h-[80px] flex justify-between items-center text-[#FEFEFE] duration-200'}>
+    <div className={navScroll ? 'md:px-24 px-6 fixed w-full h-[80px] flex justify-between items-center text-[#FEFEFE] backdrop-blur-md duration-200' : 'md:px-24 px-6 fixed w-full h-[80px] flex justify-between items-center text-[#FEFEFE] duration-200'}>
       <div>
         <Link to='home' smooth={true}><img src={Logo} alt="Logo Image" style={{width: '30px'}}/></Link>
       </div>
@@ -35,7 +35,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div onClick={handleClick} className='md:hidden z-10'>
-          {!nav ? <FaBars/> : <FaTimes/>}
+          {!nav ? <FaBars size={30}/> : <FaTimes size={30}/>}
       </div>
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#002651] flex flex-col justify-center items-center'}>
         <li className='py-8 text-4xl'>

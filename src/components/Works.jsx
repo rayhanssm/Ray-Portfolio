@@ -16,8 +16,8 @@ const Works = () => {
   return (
     <div name='works' className='w-full h-auto bg-[#002651] text-[#FEFEFE]'>
       <div className='flex flex-col justify-center items-center'>
-        <h1 className='text-5xl font-black mb-8 text-[#7EDDFC]'>My Works</h1>
-        <div className='grid grid-cols-3 gap-x-10 gap-y-1'>
+        <h1 className='text-3xl sm:text-5xl font-black mb-8 text-[#7EDDFC]'>My Works</h1>
+        <div className='md:grid grid-cols-3 gap-x-10 gap-y-1'>
           <div className='w-96 mb-20 border-2 rounded-md bg-gradient-to-b from-[#FEFEFE20] to-[#FEFEFE10]'>
             <div>
               <img src={Works1} alt="DanBam" />
