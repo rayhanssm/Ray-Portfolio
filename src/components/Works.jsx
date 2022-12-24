@@ -28,7 +28,7 @@ const Works = () => {
               <p className='h-24'>DanBam website is a project that me and my teammates developed for Human Computer Interaction course in 2nd semester.</p>
             </div>
             <div className='p-4'>
-              <button className='hover:scale-125 duration-150' onClick={() => openLink('')}><FaGithub size='30px'/></button>
+              <button className='hover:scale-125 duration-150' onClick={() => openLink('https://github.com/rayhanssm/DanBam-Restaurant')}><FaGithub size='30px'/></button>
             </div>
           </div>
           <div className='w-96 mb-20 border-2 rounded-md bg-gradient-to-b from-[#FEFEFE20] to-[#FEFEFE10]'>
@@ -80,7 +80,7 @@ const Works = () => {
               <p className='h-24'>A Three.js project for my Computer Graphics quiz course in 5th semester.</p>
             </div>
             <div className='p-4'>
-              <button className='hover:scale-125 duration-150' onClick={() => openLink('')}><FaGithub size='30px'/></button>
+              <button className='hover:scale-125 duration-150' onClick={() => openLink('https://github.com/rayhanssm/BasketballCourt-Three.js')}><FaGithub size='30px'/></button>
             </div>
           </div>
           <div className='w-96 mb-20 border-2 rounded-md bg-gradient-to-b from-[#FEFEFE20] to-[#FEFEFE10]'>
