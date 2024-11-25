@@ -17,19 +17,19 @@ const About = () => {
             About Me
           </h1>
           <p className="mb-8 sm:mb-4">
-            I am a computer science student, currently studying at Bina
+            I am a computer science graduate studied at Bina
             Nusantara University. I've been designing since vocational high
             school, and my parents used to ask me to design for them.
           </p>
           <p className="mb-8 sm:mb-4">
             I'm interested in Front-End development and UI/UX because it's in
             line with my major and I want to learn more about it, for making a
-            better interface that can be used for anyone.
+            better interface that can be used for anyone!
           </p>
           <button
             onClick={() =>
               openLink(
-                "https://drive.google.com/file/d/1okXW3SV86UOlJeVQeZ4ZC20K-KexqB5B/view?usp=sharing"
+                "https://drive.google.com/file/d/1dpcL1ujw0rab9Xcs7jffHUtn70f_S0mj/view?usp=sharing"
               )
             }
             className="border-2 rounded-md my-2 px-5 py-2  flex items-center hover:-translate-y-1 hover:scale-110 hover:bg-[#FF304F] hover:border-[#002651] hover:shadow-md duration-200"
